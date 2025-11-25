@@ -1,0 +1,6 @@
+2025-11-25 15:39:44,758 - INFO - API call started: https://api.restful-api.dev/objects
+2025-11-25 15:39:45,269 - INFO - API call started: https://jsonplaceholder.typicode.com/todos_wrong
+2025-11-25 15:39:46,128 - ERROR - HTTP error
+2025-11-25 16:31:38,701 - INFO - API call started: https://api.restful-api.dev/objects
+2025-11-25 16:31:41,283 - INFO - API call started: https://jsonplaceholder.typicode.com/todos_wrong
+2025-11-25 16:31:44,100 - ERROR - HTTP error

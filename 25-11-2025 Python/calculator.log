@@ -1,0 +1,2 @@
+2025-11-25 15:11:35,962 - INFO - Calculator called with a=1.0, b=2.0, operation='+'
+2025-11-25 15:11:35,962 - INFO - Addition successful: 1.0 + 2.0 = 3.0
