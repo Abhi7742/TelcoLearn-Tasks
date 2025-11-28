@@ -1,0 +1,408 @@
+[
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback",
+            "frame.interface_description": "Adapter for loopback traffic capture"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "2025-11-26T05:14:09.327769000Z",
+          "frame.time_utc": "2025-11-26T05:14:09.327769000Z",
+          "frame.time_epoch": "2025-11-26T05:14:09.327769000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "76",
+          "frame.cap_len": "76",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ipv6:ipv6.hopopts:icmpv6",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "ICMP",
+          "frame.coloring_rule.string": "icmp || icmpv6"
+        },
+        "null": {
+          "null.family": "24"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x000000",
+          "ipv6.plen": "32",
+          "ipv6.nxt": "0",
+          "ipv6.hlim": "1",
+          "ipv6.src": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.src_tree": {
+            "ipv6.src_addr_space": "Link-Local Unicast",
+            "ipv6.src_special_purpose": "Link-Local Unicast",
+            "ipv6.src_special_purpose_tree": {
+              "ipv6.src_special_purpose_source": "1",
+              "ipv6.src_special_purpose_destination": "1",
+              "ipv6.src_special_purpose_forwardable": "0",
+              "ipv6.src_special_purpose_global": "0",
+              "ipv6.src_special_purpose_reserved": "1"
+            }
+          },
+          "ipv6.addr": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Link-Local Unicast",
+            "ipv6.addr_special_purpose": "Link-Local Unicast",
+            "ipv6.addr_special_purpose_tree": {
+              "ipv6.addr_special_purpose_source": "1",
+              "ipv6.addr_special_purpose_destination": "1",
+              "ipv6.addr_special_purpose_forwardable": "0",
+              "ipv6.addr_special_purpose_global": "0",
+              "ipv6.addr_special_purpose_reserved": "1"
+            }
+          },
+          "ipv6.src_host": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.host": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.dst": "ff02::1:ff15:4b03",
+          "ipv6.dst_tree": {
+            "ipv6.dst_addr_space": "Multicast",
+            "ipv6.dst_multicast_flags": "0x0000",
+            "ipv6.dst_multicast_flags_tree": {
+              "ipv6.dst_multicast_flags.reserved": "0",
+              "ipv6.dst_multicast_flags.embed_rp": "0",
+              "ipv6.dst_multicast_flags.network_prefix": "0",
+              "ipv6.dst_multicast_flags.transient": "0"
+            },
+            "ipv6.dst_multicast_scope": "0x0002"
+          },
+          "ipv6.addr": "ff02::1:ff15:4b03",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Multicast",
+            "ipv6.multicast_flags": "0x0000",
+            "ipv6.multicast_flags_tree": {
+              "ipv6.multicast_flags.reserved": "0",
+              "ipv6.multicast_flags.embed_rp": "0",
+              "ipv6.multicast_flags.network_prefix": "0",
+              "ipv6.multicast_flags.transient": "0"
+            },
+            "ipv6.multicast_scope": "0x0002"
+          },
+          "ipv6.dst_host": "ff02::1:ff15:4b03",
+          "ipv6.host": "ff02::1:ff15:4b03",
+          "ipv6.stream": "0",
+          "ipv6.hopopts": {
+            "ipv6.hopopts.nxt": "58",
+            "ipv6.hopopts.len": "0",
+            "ipv6.hopopts.len_oct": "8",
+            "ipv6.opt": {
+              "ipv6.opt.type": "0x05",
+              "ipv6.opt.type_tree": {
+                "ipv6.opt.type.action": "0",
+                "ipv6.opt.type.change": "0",
+                "ipv6.opt.type.rest": "0x05"
+              },
+              "ipv6.opt.length": "2",
+              "ipv6.opt.router_alert": "0"
+            },
+            "ipv6.opt": {
+              "ipv6.opt.type": "0x01",
+              "ipv6.opt.type_tree": {
+                "ipv6.opt.type.action": "0",
+                "ipv6.opt.type.change": "0",
+                "ipv6.opt.type.rest": "0x01"
+              },
+              "ipv6.opt.length": "0",
+              "ipv6.opt.padn": ""
+            }
+          }
+        },
+        "icmpv6": {
+          "icmpv6.type": "131",
+          "icmpv6.code": "0",
+          "icmpv6.checksum": "0xac0f",
+          "icmpv6.checksum.status": "1",
+          "icmpv6.mld.maximum_response_delay": "0",
+          "icmpv6.reserved": "00:00",
+          "icmpv6.mld.multicast_address": "ff02::1:ff15:4b03"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback",
+            "frame.interface_description": "Adapter for loopback traffic capture"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "2025-11-26T05:14:13.829138000Z",
+          "frame.time_utc": "2025-11-26T05:14:13.829138000Z",
+          "frame.time_epoch": "2025-11-26T05:14:13.829138000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "4.501369000",
+          "frame.time_delta_displayed": "4.501369000",
+          "frame.time_relative": "4.501369000",
+          "frame.number": "2",
+          "frame.len": "76",
+          "frame.cap_len": "76",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ipv6:ipv6.hopopts:icmpv6",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "ICMP",
+          "frame.coloring_rule.string": "icmp || icmpv6"
+        },
+        "null": {
+          "null.family": "24"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x000000",
+          "ipv6.plen": "32",
+          "ipv6.nxt": "0",
+          "ipv6.hlim": "1",
+          "ipv6.src": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.src_tree": {
+            "ipv6.src_addr_space": "Link-Local Unicast",
+            "ipv6.src_special_purpose": "Link-Local Unicast",
+            "ipv6.src_special_purpose_tree": {
+              "ipv6.src_special_purpose_source": "1",
+              "ipv6.src_special_purpose_destination": "1",
+              "ipv6.src_special_purpose_forwardable": "0",
+              "ipv6.src_special_purpose_global": "0",
+              "ipv6.src_special_purpose_reserved": "1"
+            }
+          },
+          "ipv6.addr": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Link-Local Unicast",
+            "ipv6.addr_special_purpose": "Link-Local Unicast",
+            "ipv6.addr_special_purpose_tree": {
+              "ipv6.addr_special_purpose_source": "1",
+              "ipv6.addr_special_purpose_destination": "1",
+              "ipv6.addr_special_purpose_forwardable": "0",
+              "ipv6.addr_special_purpose_global": "0",
+              "ipv6.addr_special_purpose_reserved": "1"
+            }
+          },
+          "ipv6.src_host": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.host": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.dst": "ff02::1:ff15:4b03",
+          "ipv6.dst_tree": {
+            "ipv6.dst_addr_space": "Multicast",
+            "ipv6.dst_multicast_flags": "0x0000",
+            "ipv6.dst_multicast_flags_tree": {
+              "ipv6.dst_multicast_flags.reserved": "0",
+              "ipv6.dst_multicast_flags.embed_rp": "0",
+              "ipv6.dst_multicast_flags.network_prefix": "0",
+              "ipv6.dst_multicast_flags.transient": "0"
+            },
+            "ipv6.dst_multicast_scope": "0x0002"
+          },
+          "ipv6.addr": "ff02::1:ff15:4b03",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Multicast",
+            "ipv6.multicast_flags": "0x0000",
+            "ipv6.multicast_flags_tree": {
+              "ipv6.multicast_flags.reserved": "0",
+              "ipv6.multicast_flags.embed_rp": "0",
+              "ipv6.multicast_flags.network_prefix": "0",
+              "ipv6.multicast_flags.transient": "0"
+            },
+            "ipv6.multicast_scope": "0x0002"
+          },
+          "ipv6.dst_host": "ff02::1:ff15:4b03",
+          "ipv6.host": "ff02::1:ff15:4b03",
+          "ipv6.stream": "0",
+          "ipv6.hopopts": {
+            "ipv6.hopopts.nxt": "58",
+            "ipv6.hopopts.len": "0",
+            "ipv6.hopopts.len_oct": "8",
+            "ipv6.opt": {
+              "ipv6.opt.type": "0x05",
+              "ipv6.opt.type_tree": {
+                "ipv6.opt.type.action": "0",
+                "ipv6.opt.type.change": "0",
+                "ipv6.opt.type.rest": "0x05"
+              },
+              "ipv6.opt.length": "2",
+              "ipv6.opt.router_alert": "0"
+            },
+            "ipv6.opt": {
+              "ipv6.opt.type": "0x01",
+              "ipv6.opt.type_tree": {
+                "ipv6.opt.type.action": "0",
+                "ipv6.opt.type.change": "0",
+                "ipv6.opt.type.rest": "0x01"
+              },
+              "ipv6.opt.length": "0",
+              "ipv6.opt.padn": ""
+            }
+          }
+        },
+        "icmpv6": {
+          "icmpv6.type": "131",
+          "icmpv6.code": "0",
+          "icmpv6.checksum": "0xac0f",
+          "icmpv6.checksum.status": "1",
+          "icmpv6.mld.maximum_response_delay": "0",
+          "icmpv6.reserved": "00:00",
+          "icmpv6.mld.multicast_address": "ff02::1:ff15:4b03"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_Loopback",
+            "frame.interface_description": "Adapter for loopback traffic capture"
+          },
+          "frame.encap_type": "15",
+          "frame.time": "2025-11-26T05:14:13.829472000Z",
+          "frame.time_utc": "2025-11-26T05:14:13.829472000Z",
+          "frame.time_epoch": "2025-11-26T05:14:13.829472000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000334000",
+          "frame.time_delta_displayed": "0.000334000",
+          "frame.time_relative": "4.501703000",
+          "frame.number": "3",
+          "frame.len": "76",
+          "frame.cap_len": "76",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "null:ipv6:ipv6.hopopts:icmpv6",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "ICMP",
+          "frame.coloring_rule.string": "icmp || icmpv6"
+        },
+        "null": {
+          "null.family": "24"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x000000",
+          "ipv6.plen": "32",
+          "ipv6.nxt": "0",
+          "ipv6.hlim": "1",
+          "ipv6.src": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.src_tree": {
+            "ipv6.src_addr_space": "Link-Local Unicast",
+            "ipv6.src_special_purpose": "Link-Local Unicast",
+            "ipv6.src_special_purpose_tree": {
+              "ipv6.src_special_purpose_source": "1",
+              "ipv6.src_special_purpose_destination": "1",
+              "ipv6.src_special_purpose_forwardable": "0",
+              "ipv6.src_special_purpose_global": "0",
+              "ipv6.src_special_purpose_reserved": "1"
+            }
+          },
+          "ipv6.addr": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Link-Local Unicast",
+            "ipv6.addr_special_purpose": "Link-Local Unicast",
+            "ipv6.addr_special_purpose_tree": {
+              "ipv6.addr_special_purpose_source": "1",
+              "ipv6.addr_special_purpose_destination": "1",
+              "ipv6.addr_special_purpose_forwardable": "0",
+              "ipv6.addr_special_purpose_global": "0",
+              "ipv6.addr_special_purpose_reserved": "1"
+            }
+          },
+          "ipv6.src_host": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.host": "fe80::5bc1:1308:8615:4b03",
+          "ipv6.dst": "ff02::fb",
+          "ipv6.dst_tree": {
+            "ipv6.dst_addr_space": "Multicast",
+            "ipv6.dst_multicast_flags": "0x0000",
+            "ipv6.dst_multicast_flags_tree": {
+              "ipv6.dst_multicast_flags.reserved": "0",
+              "ipv6.dst_multicast_flags.embed_rp": "0",
+              "ipv6.dst_multicast_flags.network_prefix": "0",
+              "ipv6.dst_multicast_flags.transient": "0"
+            },
+            "ipv6.dst_multicast_scope": "0x0002"
+          },
+          "ipv6.addr": "ff02::fb",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Multicast",
+            "ipv6.multicast_flags": "0x0000",
+            "ipv6.multicast_flags_tree": {
+              "ipv6.multicast_flags.reserved": "0",
+              "ipv6.multicast_flags.embed_rp": "0",
+              "ipv6.multicast_flags.network_prefix": "0",
+              "ipv6.multicast_flags.transient": "0"
+            },
+            "ipv6.multicast_scope": "0x0002"
+          },
+          "ipv6.dst_host": "ff02::fb",
+          "ipv6.host": "ff02::fb",
+          "ipv6.stream": "1",
+          "ipv6.hopopts": {
+            "ipv6.hopopts.nxt": "58",
+            "ipv6.hopopts.len": "0",
+            "ipv6.hopopts.len_oct": "8",
+            "ipv6.opt": {
+              "ipv6.opt.type": "0x05",
+              "ipv6.opt.type_tree": {
+                "ipv6.opt.type.action": "0",
+                "ipv6.opt.type.change": "0",
+                "ipv6.opt.type.rest": "0x05"
+              },
+              "ipv6.opt.length": "2",
+              "ipv6.opt.router_alert": "0"
+            },
+            "ipv6.opt": {
+              "ipv6.opt.type": "0x01",
+              "ipv6.opt.type_tree": {
+                "ipv6.opt.type.action": "0",
+                "ipv6.opt.type.change": "0",
+                "ipv6.opt.type.rest": "0x01"
+              },
+              "ipv6.opt.length": "0",
+              "ipv6.opt.padn": ""
+            }
+          }
+        },
+        "icmpv6": {
+          "icmpv6.type": "131",
+          "icmpv6.code": "0",
+          "icmpv6.checksum": "0x3e4e",
+          "icmpv6.checksum.status": "1",
+          "icmpv6.mld.maximum_response_delay": "0",
+          "icmpv6.reserved": "00:00",
+          "icmpv6.mld.multicast_address": "ff02::fb"
+        }
+      }
+    }
+  }
+]
